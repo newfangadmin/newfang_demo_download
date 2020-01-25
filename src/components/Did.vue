@@ -20,7 +20,7 @@
 
 <script>
 import { ethers } from 'ethers'
-const Newfang = window.newfang.default
+const Newfang = window.newfang
 const { Downloader } = Newfang
 const wallet = new ethers.Wallet("B2F6ACDF8D47EDD53A38D573325DAA9D2418A6FB1B141DB7A4AFAFB985E6BA49")
 
