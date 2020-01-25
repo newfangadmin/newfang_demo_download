@@ -11,7 +11,6 @@
         <el-input placeholder="Enter File DID" v-model="did" class="didInput"></el-input>
         <div class="errorContainer">{{ errorMsg }}</div>
         <div class="btnContainer">
-          <el-button class="secondaryBtn">Verify Permission</el-button>
           <el-button type="primary" icon="el-icon-download" class="downloadBtn" @click="handleDownload()">Download File</el-button>
         </div>
       </div>
